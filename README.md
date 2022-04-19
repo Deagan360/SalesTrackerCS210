@@ -16,7 +16,9 @@ option 3 calls python function to create a .dat file which will be read in C++ t
 Journal:
 
 What did you do particularly well?
-  I feel as though I did a good job reading input from the file and iterating though the data to display the results properly thoughout the project.
+  I feel as though I did a good job reading input from the file and iterating though the data to display the results properly thoughout the project. With this program
+  I had to read through multiple files, write to a file, and iterate through the data several times. Doing this efficiently and not missing any data while still not
+  running any iteration twice or messing up with blank space is a challenge I feel I accomplished correctly. 
   
 Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
   One opportunity that I see with my program is how I coded the user input validation. I hardcoded it into the loop to ensure it was proper. Instead I could have used
@@ -24,10 +26,18 @@ Where could you enhance your code? How would these improvements make your code m
   might and there isn't any proper exception handling. 
   
 Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
-  
+  The piece of code I had the most trouble with was the histogram. When reading the "frequency.dat" file I initially ended each line with a "\n" character. When I was
+  entering the while(!eof) loop it would get stuck at the newline and run the last cout twice. It took me a while to figure out why that was happening. I ended up
+  putting the newline character at the beginning of each instead. I now know to pay more attention to blank space in files.
   
 What skills from this project will be particularly transferable to other projects or course work?
-  
+  I feel like I am in a position where any experience I can get and challenge I can conquer will benefit me. Learning more and finding new ways to accomplish whatever
+  tasks are thrown at me will give me more confidence in my craft and widen my skills. Being able to practice input/output, accessing/writing to files, creating
+  functions, in;ut validation, etc. will get me closer to acheiving my goal of entering a new career.
   
 How did you make this program maintainable, readable, and adaptable?
-  
+  Making a program maintainable, readable, and adaptable is something that requires multiple habits. For one thing you have to have varaiable and function names that 
+  describe what they are used for without being too long making it more difficult to read and follow. Following industry standards with lower case and upper case letters
+  in variable and function names is also important because it makes the different things easier to identify. Another way to keep a code maintainable and adaptable is
+  having plenty of comments that express what the code is doing properly and using comments to block off different sections of the code desribing what the next section
+  will accomplish. 
