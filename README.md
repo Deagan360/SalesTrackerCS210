@@ -16,10 +16,12 @@ option 3 calls python function to create a .dat file which will be read in C++ t
 Journal:
 
 What did you do particularly well?
-  I feel as though I did a good job reading inut from the file and iterating though the data to display the results properly thoughout the project.
+  I feel as though I did a good job reading input from the file and iterating though the data to display the results properly thoughout the project.
   
 Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
-  
+  One opportunity that I see with my program is how I coded the user input validation. I hardcoded it into the loop to ensure it was proper. Instead I could have used
+  try-catch blocks making the code more professional. This could also have made the code more secure because even with me not being able to break my code, someone else
+  might and there isn't any proper exception handling. 
   
 Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
   
